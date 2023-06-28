@@ -56,6 +56,27 @@ const data = [
 
 */
 
+function Post (titulo, avatar, texto) {
+  this.titulo = titulo;
+  this.avatar = avatar;
+  this.textp = texto; 
+};
+
+const Posts = []
+
+
+  for (let i = 0; i < data.length; i++) {
+    const {titulo, avatar, texto } = data[i];
+    const Creation = new Post (titulo, avatar, texto);
+    everPosted.push(Creation);
+
+  }
+
+  for (let i=0; i<Posts.length; i++) {
+    console.log(Posts[i])
+  }
+
+
 
 
 /*

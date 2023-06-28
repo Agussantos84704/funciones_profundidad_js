@@ -18,5 +18,15 @@ let cantidadEncuestados = 0;  // Se utiliza para saber cuantos pokemons se inten
 // function restart
 
 
+
+
 agregarEventos();
-restart();
+
+
+function restart (){
+    const testo = document.querySelector(".description");
+testo.innerText = "  ";
+
+    
+
+};
